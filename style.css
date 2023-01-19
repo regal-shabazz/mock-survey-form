@@ -37,7 +37,7 @@ form {
     max-width: 650px;
     margin: 0 auto;
     padding: 2em;
-    background-color: #252545;
+    background-color: hsla(240, 30%, 21%, 0.8);
 }
 
 section {
