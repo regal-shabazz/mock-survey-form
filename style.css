@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    background: linear-gradient(hsla(239, 26%, 55%, 0.788), hsla(239, 26%, 55%, 0.781)), url('./images/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg') no-repeat center center / cover;
+   
+
+}
+
+article {
+    padding: 2em;
+}
+
+h1, p {
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+form {
+    /* width @ 90% and max-width @ 650px ensures the form doesnt get wider than 650px on big screens! and also doesnt get smaller than 90% on small screens */
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #252545;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.input-fields input,
+.drop-downs select {
+    margin-bottom: 2em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-fields input,
+.drop-downs select,
+textarea,
+input[type=submit] {
+    width: 100%;
+    padding: .5em;
+}
+
+input[type=submit] {
+    background-color: #37af65;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+

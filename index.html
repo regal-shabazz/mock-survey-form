@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <article>
+      <h1 id="title">Lorem ipsum dolor Survey Form</h1>
+      <p id="description">
+        <em>Thank you for taking time to help us improve the platform</em>
+      </p>
+    </article>
+
+    <!-- the form field begins here -->
+    <form id="survey-form" action="">
+      <!-- the first section contains the text input fields -->
+      <section class="input-fields">
+        <label for="full-name">Name</label>
+        <input
+          type="text"
+          name="full-name"
+          id="full-name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="johndoe@example.com"
+          required
+        />
+
+        <label for="age">Age (optional)</label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          placeholder="e.g 20"
+          pattern="[0-9]"
+          min="18"
+          max="60"
+          required
+        />
+      </section>
+
+      <!-- the second section contains the radio buttons -->
+      <section class="radio-btns">
+        <label for="recommend"
+          >Would you recommend Lorem ipsum dolor to a friend?
+        </label>
+        <label for="recommend">
+          <input
+            type="radio"
+            name="recommend"
+            id="yes"
+            value="definitely"
+            checked
+          />
+          Definitely
+        </label>
+        <label for="recommend">
+          <input type="radio" name="recommend" id="no" value="maybe" /> Maybe
+        </label>
+        <label for="recommend">
+          <input type="radio" name="recommend" id="no" value="not sure" /> Not
+          sure
+        </label>
+      </section>
+
+      <!-- the third section contains the drop-down menu -->
+      <section class="drop-downs">
+        <label for="role">Which option best describes your current role?</label>
+        <select name="role" id="drop-down1">
+          <option value="">Select current role</option>
+          <option value="student">Student</option>
+          <option value="tutor">Tutor</option>
+        </select>
+
+        <label for="fav-feature"
+          >What is your favorite feature of freeCodeCamp?</label
+        >
+        <select name="fav-feature" id="drop-down2">
+          <option value="">Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-source">Open Source</option>
+        </select>
+      </section>
+
+      <!-- the fourth section contains the check-boxes -->
+      <section class="check-boxes">
+        <label for="improv">What would like to see improved?</label>
+        <label for="improv">
+          <input
+            type="checkbox"
+            name="improv"
+            id=""
+            value="front-end-projects"
+          />
+          Front-end Projects
+        </label>
+        <label for="improv">
+          <input
+            type="checkbox"
+            name="improv"
+            id=""
+            value="back-end-projects"
+          />
+          Back-end Projects
+        </label>
+        <label for="improv">
+          <input
+            type="checkbox"
+            name="improv"
+            id=""
+            value="data-visualization"
+          />
+          Data Visualization
+        </label>
+        <label for="improv">
+          <input type="checkbox" name="improv" id="" value="challenges" />
+          Challenges
+        </label>
+        <label for="improv">
+          <input
+            type="checkbox"
+            name="improv"
+            id=""
+            value="open-source-community"
+          />
+          Open Source Community
+        </label>
+        <label for="improv">
+          <input
+            type="checkbox"
+            name="improv"
+            id=""
+            value="gitter-help-rooms"
+          />
+          Gitter help rooms
+        </label>
+        <label for="improv">
+          <input type="checkbox" name="improv" id="" value="videos" /> Videos
+        </label>
+        <label for="improv">
+          <input type="checkbox" name="improv" id="" value="city-meetups" />
+          City Meetups
+        </label>
+        <label for="improv">
+          <input type="checkbox" name="improv" id="" value="wiki" /> Wiki
+        </label>
+        <label for="improv">
+          <input type="checkbox" name="improv" id="" value="forum" /> Forum
+        </label>
+        <label for="improv">
+          <input
+            type="checkbox"
+            name="improv"
+            id=""
+            value="additional-courses"
+          />
+          Additional Courses
+        </label>
+      </section>
+
+      <!-- the fifth section is for the large text area -->
+      <section class="text-area">
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comments here"
+        ></textarea>
+      </section>
+
+      <!-- submit button -->
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
