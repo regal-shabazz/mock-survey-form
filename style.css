@@ -8,7 +8,7 @@
 body {
     max-width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(hsla(239, 26%, 55%, 0.788), hsla(239, 26%, 55%, 0.781)), url('./images/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg') no-repeat center center / cover;
+    background: linear-gradient(hsla(239, 26%, 55%, 0.788), hsla(239, 26%, 55%, 0.781)), url('./images/desola-lanre-ologun-IgUR1iX0mqM-unsplash-mobile.jpg') no-repeat center center / cover;
 }
 
 article {
@@ -74,8 +74,8 @@ input[type=submit] {
     font-size: 1rem;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     body {
         background: linear-gradient(hsla(239, 26%, 55%, 0.788), hsla(239, 26%, 55%, 0.781)), url('./images/desola-lanre-ologun-IgUR1iX0mqM-unsplash-mobile.jpg') no-repeat center center / cover;
     }
-}
+} */
