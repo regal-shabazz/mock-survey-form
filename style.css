@@ -34,7 +34,7 @@ form {
     /* width @ 90% and max-width @ 650px ensures the form doesnt get wider than 650px on big screens! and also doesnt get smaller than 90% on small screens */
     width: 90%;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0 auto 3em;
     padding: 2em;
     background-color: hsla(240, 30%, 21%, 0.6);
 }
@@ -74,8 +74,8 @@ input[type=submit] {
     font-size: 1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     body {
-        background: linear-gradient(hsla(239, 26%, 55%, 0.788), hsla(239, 26%, 55%, 0.781)), url('/images/desola-lanre-ologun-IgUR1iX0mqM-unsplash-mobile.jpg') no-repeat center center / cover;
+        background: linear-gradient(hsla(239, 26%, 55%, 0.788), hsla(239, 26%, 55%, 0.781)), url('./images/desola-lanre-ologun-IgUR1iX0mqM-unsplash-mobile.jpg') no-repeat center center / cover;
     }
 }
